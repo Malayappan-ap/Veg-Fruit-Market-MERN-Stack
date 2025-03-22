@@ -1,0 +1,94 @@
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff; /* Soft light background */
+  font-family: 'Arial', sans-serif;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1614595762869-d2c32d9f11d4'); /* Light fruit/vegetable background */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.card .title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ff4500;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #98fb98; /* Light green for focus effect */
+}
+
+.submit-btn {
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff6347; /* Tomato Red */
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #ff4500; /* Darker red for hover */
+  transform: scale(1.05);
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.login-link a {
+  color: #98fb98; /* Light green for the link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  color: #ff6347; /* Tomato Red for hover effect */
+}
+.login-link p {
+  color: #447788; /* Light green for the link */
+  text-decoration: none;
+  font-weight: bold;
+}

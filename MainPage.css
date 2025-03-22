@@ -1,0 +1,64 @@
+.main-page {
+  background-image: url('https://st4.depositphotos.com/13324256/20725/i/450/depositphotos_207250452-stock-photo-top-view-food-composition-various.jpg'); /* Fruit and vegetable market image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Text color */
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay to make text stand out */
+  padding: 30px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Uppercase letters for more impact */
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.login-button {
+  background-color: #ff6347; /* Tomato Red */
+  color: white;
+  font-weight: bold;
+}
+
+.register-button {
+  background-color: #98fb98; /* Light Green */
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}

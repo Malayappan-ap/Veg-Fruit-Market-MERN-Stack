@@ -1,0 +1,210 @@
+/* Navbar/Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;  /* Align items side by side */
+    align-items: center;
+    background-color: #333;  /* Dark background color for navbar */
+    color: white;  /* Text color for better visibility */
+    padding: 8px 16px;  /* Reduced padding */
+    border-radius: 8px;  /* Slightly reduced border radius for a smaller look */
+    margin-bottom: 20px;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;  /* Slightly smaller font size */
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;  /* Reduced space between the links */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;  /* White color for nav links */
+    font-size: 1rem;  /* Reduced font size */
+    font-weight: 500;
+    padding: 8px 14px;  /* Slightly smaller padding */
+    border-radius: 6px;  /* Slightly reduced border radius */
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #555;  /* Hover effect for the links */
+  }
+  
+  /* Product Item Section */
+  .product-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .product-items p {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Filters Section */
+  .filters {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .filters h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .filter-category,
+  .filter-price {
+    margin-bottom: 15px;
+  }
+  
+  .filter-category label,
+  .filter-price label {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .filter-category select,
+  .filter-price input {
+    padding: 8px;
+    font-size: 1rem;
+    width: 150px;
+  }
+  
+  /* Buy Now Section */
+  .buy-now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .buy-now h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .buy-now-button {
+    background-color: rgb(11, 162, 11);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  .buy-now-button:hover {
+    background-color: rgb(113, 230, 113);
+    color: brown;
+  }
+  
+  /* Product Card Layout */
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 100%;
+    height: 400px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .product-details {
+    text-align: center;
+  }
+  
+  .product-details h3 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .product-details p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 8px;
+  }
+  
+  /* Add to Cart Button Styling */
+  .add-to-cart-btn {
+    background-color: rgb(255, 145, 51);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: rgb(255, 165, 0);
+  }
+  
+  .add-to-cart-btn:active {
+    transform: scale(0.98);
+  }
+  
+  /* Buttons for Payment Page */
+  .payment-btn {
+    background-color: rgb(56, 112, 243);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-btn:hover {
+    background-color: rgb(42, 89, 169);
+  }
+  
+  .payment-btn:active {
+    transform: scale(0.98);
+  }
+  
